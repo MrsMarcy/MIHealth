@@ -1,0 +1,40 @@
+* {
+    margin: 0;padding: 0;border: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* upper header */
+#red {
+    color: red;
+}
+#green{ 
+    color :lime
+}
+#container {
+    padding: 30px 75px;
+    background-color: whitesmoke;
+}
+#header-box {
+    display: flex;
+    align-items: center;
+    justify-content:space-between 
+}
+.item {
+ display: inline;
+ margin: auto 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* lower body portion*/
+body {
+    background-color: lightgray;
+}
+#main {
+    display: flex;
+    justify-content: space-between;
+}
+#container2 {
+    height: 14px;
+}
